@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChiknTinder.Common\ChiknTinder.Common.csproj" />
+    <ProjectReference Include="..\ChiknTinder.Contracts.Persistence\ChiknTinder.Contracts.Persistence.csproj" />
+    <ProjectReference Include="..\ChiknTinder.Contracts.Services\ChiknTinder.Contracts.Services.csproj" />
+    <ProjectReference Include="..\ChiknTinder.Models\ChiknTinder.Models.csproj" />
+  </ItemGroup>
+
+</Project>

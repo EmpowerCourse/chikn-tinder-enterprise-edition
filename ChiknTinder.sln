@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChiknTinder.Web", "ChiknTinder.Web\ChiknTinder.Web.csproj", "{3B588C1B-48F3-48FD-82AD-D5A7DDD7DDB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{EA6DD3CF-FA9B-45CB-97AD-DB050CEEC6C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{A1F3077E-00EC-4B7B-8E48-11C33C3314DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{E7D30075-474D-4EA8-A942-4DD783197D8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChiknTinder.Contracts.Services", "ChiknTinder.Contracts.Services\ChiknTinder.Contracts.Services.csproj", "{15F23B57-39B1-45BF-BF87-2A931B0F0E8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChiknTinder.Services", "ChiknTinder.Services\ChiknTinder.Services.csproj", "{4DECF936-D024-4584-945F-C7CF0959901F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChiknTinder.Contracts.Persistence", "ChiknTinder.Contracts.Persistence\ChiknTinder.Contracts.Persistence.csproj", "{22BEA88C-48A0-41B9-81F1-AC7D57690455}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChiknTinder.Persistence.NHibernate", "ChiknTinder.Persistence.NHibernate\ChiknTinder.Persistence.NHibernate.csproj", "{5AFBA087-2258-4318-9668-B54D1A2A7FE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChiknTinder.Migrations", "ChiknTinder.Migrations\ChiknTinder.Migrations.csproj", "{06D97363-8187-438A-B363-7F1D620C74EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChiknTinder.MigrationRunner", "ChiknTinder.MigrationRunner\ChiknTinder.MigrationRunner.csproj", "{F48D4CD0-28FD-4288-8EC7-773676A265E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChiknTinder.Common", "ChiknTinder.Common\ChiknTinder.Common.csproj", "{5B6212F6-6235-4053-8CBE-75A63CF045C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChiknTinder.Models", "ChiknTinder.Models\ChiknTinder.Models.csproj", "{0CEAEB33-033E-42B0-B050-FAD48BCEA896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChiknTinder.Configuration", "ChiknTinder.Configuration\ChiknTinder.Configuration.csproj", "{9EC8B6CC-6E38-4894-8C2E-38C6CA48F352}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B588C1B-48F3-48FD-82AD-D5A7DDD7DDB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B588C1B-48F3-48FD-82AD-D5A7DDD7DDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B588C1B-48F3-48FD-82AD-D5A7DDD7DDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B588C1B-48F3-48FD-82AD-D5A7DDD7DDB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F23B57-39B1-45BF-BF87-2A931B0F0E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F23B57-39B1-45BF-BF87-2A931B0F0E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F23B57-39B1-45BF-BF87-2A931B0F0E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F23B57-39B1-45BF-BF87-2A931B0F0E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DECF936-D024-4584-945F-C7CF0959901F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DECF936-D024-4584-945F-C7CF0959901F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DECF936-D024-4584-945F-C7CF0959901F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DECF936-D024-4584-945F-C7CF0959901F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22BEA88C-48A0-41B9-81F1-AC7D57690455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22BEA88C-48A0-41B9-81F1-AC7D57690455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22BEA88C-48A0-41B9-81F1-AC7D57690455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22BEA88C-48A0-41B9-81F1-AC7D57690455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AFBA087-2258-4318-9668-B54D1A2A7FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFBA087-2258-4318-9668-B54D1A2A7FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFBA087-2258-4318-9668-B54D1A2A7FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFBA087-2258-4318-9668-B54D1A2A7FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D97363-8187-438A-B363-7F1D620C74EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D97363-8187-438A-B363-7F1D620C74EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D97363-8187-438A-B363-7F1D620C74EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D97363-8187-438A-B363-7F1D620C74EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48D4CD0-28FD-4288-8EC7-773676A265E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48D4CD0-28FD-4288-8EC7-773676A265E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48D4CD0-28FD-4288-8EC7-773676A265E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48D4CD0-28FD-4288-8EC7-773676A265E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6212F6-6235-4053-8CBE-75A63CF045C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6212F6-6235-4053-8CBE-75A63CF045C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6212F6-6235-4053-8CBE-75A63CF045C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6212F6-6235-4053-8CBE-75A63CF045C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CEAEB33-033E-42B0-B050-FAD48BCEA896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEAEB33-033E-42B0-B050-FAD48BCEA896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CEAEB33-033E-42B0-B050-FAD48BCEA896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CEAEB33-033E-42B0-B050-FAD48BCEA896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC8B6CC-6E38-4894-8C2E-38C6CA48F352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC8B6CC-6E38-4894-8C2E-38C6CA48F352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC8B6CC-6E38-4894-8C2E-38C6CA48F352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC8B6CC-6E38-4894-8C2E-38C6CA48F352}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15F23B57-39B1-45BF-BF87-2A931B0F0E8C} = {EA6DD3CF-FA9B-45CB-97AD-DB050CEEC6C4}
+		{4DECF936-D024-4584-945F-C7CF0959901F} = {EA6DD3CF-FA9B-45CB-97AD-DB050CEEC6C4}
+		{22BEA88C-48A0-41B9-81F1-AC7D57690455} = {A1F3077E-00EC-4B7B-8E48-11C33C3314DB}
+		{5AFBA087-2258-4318-9668-B54D1A2A7FE0} = {A1F3077E-00EC-4B7B-8E48-11C33C3314DB}
+		{06D97363-8187-438A-B363-7F1D620C74EA} = {E7D30075-474D-4EA8-A942-4DD783197D8A}
+		{F48D4CD0-28FD-4288-8EC7-773676A265E5} = {E7D30075-474D-4EA8-A942-4DD783197D8A}
+		{0CEAEB33-033E-42B0-B050-FAD48BCEA896} = {A1F3077E-00EC-4B7B-8E48-11C33C3314DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5203706C-5B1A-45C8-B22C-1E43EE5D1571}
+	EndGlobalSection
+EndGlobal

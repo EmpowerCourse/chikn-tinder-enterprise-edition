@@ -1,0 +1,11 @@
+POST https://localhost:5000/api/login
+Content-Type: application/json
+
+{
+    "email": "admin",
+    "password": "Password1"
+}
+
+###
+GET https://localhost:5000/api/values
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjpbIjEiLCJhZG1pbiJdLCJyb2xlIjoiQWRtaW4iLCJuYmYiOjE2OTA2MzkyMTksImV4cCI6MTY5MTI0NDAxOSwiaWF0IjoxNjkwNjM5MjE5fQ.R1fqYveULhz5QPB3ct-6ZtPQNekE0LRhV5TIBkoeeJA
